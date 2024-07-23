@@ -6,7 +6,6 @@ Welcome to the Backend-Javascript repository! This repository is dedicated to ba
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Usage](#usage)
 
 ## Introduction
 This repository contains a collection of backend projects and exercises that demonstrate the use of JavaScript in server-side development. The goal is to provide a hands-on learning experience with modern backend technologies and best practices.
@@ -31,12 +30,3 @@ To set up this repository locally, follow these steps:
     ```sh
     cd backend-javascript
     ```
-3. **Install dependencies**:
-    ```sh
-    npm install
-    ```
-
-## Usage
-To run the server locally, use the following command:
-```sh
-npm start
