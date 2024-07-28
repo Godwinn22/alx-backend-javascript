@@ -7,10 +7,17 @@ export default class Building {
         );
       }
     }
-    this._sqft = sqft;
+    this.sqft = sqft;
   }
 
   get() {
     return this._sqft;
+  }
+
+  set(value) {
+    if (typeof value !== 'number') {
+      throw new TypeError('Sqft must be a number');
+    }
+    this._sqft = value;
   }
 }
